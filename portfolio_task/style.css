@@ -19,6 +19,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
+  margin-bottom: 30px;
 }
 
 .project {
@@ -28,17 +29,19 @@ main {
 }
 
 #project-details {
+  background-color: #333;
+  color: #fff;
   margin: auto;
   width: 300px;
-
   padding: 10px;
 }
 
 #project-details.hidden {
-  display: block;
+  display: none;
 }
 img {
-  height: 200px;
+  height: 250px;
+  width: 300px;
 }
 footer {
   background-color: #333;
